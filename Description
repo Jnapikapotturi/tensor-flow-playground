@@ -1,0 +1,7 @@
+DESCRIPTION:-
+In TensorFlow Playground, the tanh (hyperbolic tangent) activation function maps inputs to values between -1 and 1, 
+making it useful for data centered around zero. Its smooth, S-shaped curve allows both positive and negative activations, 
+helping the network learn complex, non-linear patterns. Compared to sigmoid, tanh offers faster convergence since it is 
+zero-centered, though it can still suffer from vanishing gradients in deeper networks. While not as widely used as ReLU 
+for deep architectures, tanh is effective in tasks like RNNs, where capturing both positive and negative dependencies 
+is crucial. Experimenting with tanh in the Playground helps visualize how it shapes decision boundaries and impacts training dynamics.
